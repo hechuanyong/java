@@ -1,0 +1,55 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .tmp 文件
+*.tmp
+
+# 忽略所有 .env 文件
+*.env
+
+# 忽略所有 .lock 文件
+*.lock
+
+# 忽略所有 .idea 文件夹
+.idea/
+
+# 忽略所有 .vscode 文件夹
+.vscode/
+
+# 忽略所有的 node_modules 文件夹
+node_modules/
+
+# 忽略所有的 dist 文件夹
+dist/
+
+# 忽略所有的 build 文件夹
+build/
+
+# 忽略所有的 *.bak 文件
+*.bak
+
+# 忽略所有的 .local 文件
+*.local
+
+# 忽略所有的 ~ 文件
+*~
+
+# 忽略所有的 .nvm 文件
+.nvm/
+
+# 忽略所有的 .DS_Store 文件
+.DS_Store
+
+# 忽略所有的 Thumbs.db 文件
+Thumbs.db
+
+# 忽略所有的 .db 文件
+*.db
+
+# 忽略所有的 .png 文件，除了名为 icon.png 的文件
+*.png
+!icon.png
+
+# 忽略所有的 .txt 文件，除了在 docs 文件夹下的文件
+*.txt
+!docs/*.txt
