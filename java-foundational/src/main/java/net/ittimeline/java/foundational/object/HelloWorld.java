@@ -9,6 +9,6 @@ package net.ittimeline.java.foundational.object;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("hello world with windows10 & JDK11& git & intellij IDEA ");
+        System.out.println("hello world with windows10 & & 这个比较 JDK11& git & intellij IDEA ");
     }
 }
