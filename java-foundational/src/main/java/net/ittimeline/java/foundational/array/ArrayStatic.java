@@ -7,17 +7,22 @@ package net.ittimeline.java.foundational.array;
  */
 public class ArrayStatic {
     public static void main(String[] args) {
-        int[] numbers = new int[]{10, 20, 30};
-        System.out.println(numbers[0]);
-        System.out.println(numbers[1]);
-        System.out.println(numbers[2]);
-//        System.out.println(numbers[-1]);
-        numbers = null;
-        System.out.println(numbers);
+        int left = 100;
+        int right = -5;
 
-        if ( null!=numbers ) {
-            System.out.println(numbers[2]);
+        left = left ^ right;
 
-        }
+        System.out.println(left);
+
+        right = left ^ right;
+        System.out.println(right);
+
+        left = left ^ right;
+        System.out.println(left);
+
+
+        System.out.println(right);
+
     }
 }
+
